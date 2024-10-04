@@ -1,0 +1,63 @@
+/* styles.css */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-image: url('assassinscreed.jpeg'); /* Mantém a imagem de fundo */
+    background-size: cover; /* Certifique-se de que o fundo cubra a tela */
+    color: #fff;
+}
+
+header {
+    background-color: #333; /* Muda a cor do cabeçalho */
+    padding: 20px;
+}
+
+nav ul {
+    list-style: none;
+    display: flex;
+    justify-content: center;
+    padding: 0;
+}
+
+nav ul li {
+    margin: 0 15px;
+}
+
+nav ul li a {
+    color: #fff;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+.postagem {
+    background-color: rgba(68, 68, 68, 0.8); /* Um fundo semi-transparente para a postagem */
+    padding: 20px;
+    margin: 20px auto; /* Centraliza a postagem */
+    border-radius: 5px;
+    max-width: 800px; /* Define um limite de largura máxima */
+    width: 90%; /* Responsividade em telas menores */
+}
+
+.date {
+    text-align: right;
+    font-size: 14px;
+    color: #888;
+}
+
+img {
+    width: 100%; /* Faz a imagem ser responsiva dentro do container */
+    height: auto;
+    margin-bottom: 20px;
+    border-radius: 5px; /* Arredonda os cantos da imagem */
+}
+
+h2 {
+    margin-top: 0;
+}
+
+footer {
+    background-color: #111;
+    text-align: center;
+    padding: 10px 0;
+}
